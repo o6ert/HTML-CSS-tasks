@@ -1,0 +1,47 @@
+@media only screen and 
+(orientation: portrait) and 
+(min-device-width: 375px) and 
+(max-device-width: 896px) and 
+(-webkit-min-device-pixel-ratio: 3) 
+{ 
+    .main_background{
+        width: 375px;
+        height: max-content;
+    }
+
+    .TopHead{
+        width: inherit;
+        height: 100px;
+    }
+
+    .TopHead a{
+        visibility: hidden;
+    }
+
+    .callUs{
+        width: max-content;
+        height: max-content;
+        margin: auto;
+    }
+
+    .callUs__button{
+        margin: 100px auto 150px;
+    }
+
+    .footer{
+        width: 375px;
+        height: max-content;
+    }
+
+    .footer-inner{
+        flex-direction: column;
+        gap: 20px;
+        width: max-content;
+    }
+
+    .big_string1{
+        font-size: 32px;
+        width: 247px;
+        margin: auto;
+    }
+}
